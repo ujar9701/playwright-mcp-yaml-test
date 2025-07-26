@@ -4,7 +4,7 @@ This is a modular, AI-integrated test automation framework built using **Playwri
 
 ## Features
 
-- ⚙ YAML-based modular test case structure
+-  YAML-based modular test case structure
 -  Playwright for cross-browser automation
 -  **Gemini AI integration** for:
   - Suggesting test cases from user stories or bugs
