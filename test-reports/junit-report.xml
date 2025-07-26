@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Suite" tests="4" failures="0" time="366.39">
+    <testcase name="Verify Dashboard Parameters" time="178.25"/>
+    <testcase name="Verify Cart Test" time="81.68"/>
+    <testcase name="User Login Test" time="45.34"/>
+    <testcase name="Product Add to Cart Test" time="61.12"/>
+</testsuite>

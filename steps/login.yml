@@ -1,0 +1,11 @@
+description: "Reusable step to login to application"
+parameters:
+  - TEST_USERNAME
+  - TEST_PASSWORD
+steps:
+  - Navigate to login page
+  - click on the Maximize button
+  - Enter username as {{TEST_USERNAME}}
+  - Enter password as {{TEST_PASSWORD}}
+  - Click login button
+  - Wait for dashboard to appear

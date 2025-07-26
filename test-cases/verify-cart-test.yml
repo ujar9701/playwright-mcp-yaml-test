@@ -1,0 +1,8 @@
+name: "Verify Cart Test"
+description: "Verify the cart"
+tags:
+  - smoke
+  - verify-cart
+steps:
+  - include: "login"
+  - include: "verify-cart"

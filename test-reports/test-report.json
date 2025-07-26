@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "executionTime": 366391,
+    "environment": "dev",
+    "timestamp": "2025-07-26T20:52:29.839Z"
+  },
+  "tests": [
+    {
+      "testCase": "test-cases\\verify-dashboard-parameters.yml",
+      "name": "Verify Dashboard Parameters",
+      "steps": 11,
+      "result": null,
+      "artifactsDir": "test-artifacts\\verify-dashboard-parameters",
+      "status": "passed",
+      "duration": 178254,
+      "artifacts": [],
+      "screenshots": [],
+      "traces": [],
+      "videos": []
+    },
+    {
+      "testCase": "test-cases\\verify-cart-test.yml",
+      "name": "Verify Cart Test",
+      "steps": 11,
+      "result": null,
+      "artifactsDir": "test-artifacts\\verify-cart-test",
+      "status": "passed",
+      "duration": 81680,
+      "artifacts": [],
+      "screenshots": [],
+      "traces": [],
+      "videos": []
+    },
+    {
+      "testCase": "test-cases\\user-login.yml",
+      "name": "User Login Test",
+      "steps": 7,
+      "result": null,
+      "artifactsDir": "test-artifacts\\user-login-test",
+      "status": "passed",
+      "duration": 45338,
+      "artifacts": [],
+      "screenshots": [],
+      "traces": [],
+      "videos": []
+    },
+    {
+      "testCase": "test-cases\\product-add-to-cart.yml",
+      "name": "Product Add to Cart Test",
+      "steps": 14,
+      "result": null,
+      "artifactsDir": "test-artifacts\\product-add-to-cart-test",
+      "status": "passed",
+      "duration": 61119,
+      "artifacts": [],
+      "screenshots": [],
+      "traces": [],
+      "videos": []
+    }
+  ]
+}

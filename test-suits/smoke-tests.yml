@@ -1,0 +1,8 @@
+name: "Smoke Test Suite"
+description: "Basic smoke tests for critical user flows."
+tags:
+  - smoke
+  - fast
+environment: "dev"
+test-cases:
+  - test-cases/user-login.yml

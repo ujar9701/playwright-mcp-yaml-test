@@ -1,0 +1,13 @@
+name: "User Login Test"
+description: "Checks if a user can log in with valid credentials."
+tags:
+  - smoke
+  - login
+  - authentication
+environment_variables:
+  - BASE_URL
+  - TEST_USERNAME
+  - TEST_PASSWORD
+steps:
+  - include: "login"
+  - "Verify dashboard is displayed"

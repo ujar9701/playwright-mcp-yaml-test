@@ -1,0 +1,11 @@
+  name : "Product Add to Cart Test"
+  description: "Checks if a product can be added to the cart"
+  tags:
+    - smoke
+    - add-to-cart
+  steps:
+    - include: "login"
+    - Navigate to the product listing page
+    - include: "add-to-cart"
+    - "Verify the product is added to the cart"
+    - "Verify the cart icon/badge is updated"

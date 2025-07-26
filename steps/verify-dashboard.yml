@@ -1,0 +1,24 @@
+description: "Reusable step to verify the dashboard"
+parameters: []
+PAGE_TITLE: "{{Swag labs}}"
+MENU_ITEM:
+  - "{{All Items}}"
+  - "{{About}}"
+  - "{{Logout}}"
+  - "{{Reset App State}}"
+  - "{{Toggle Sidebar}}"
+  - "{{Close Sidebar}}"
+  - "{{Open Menu}}"
+  - "{{Open Menu}}"
+  - "{{Close Menu}}"
+FILTER_OPTION:
+  - "{{Price (low to high)}}"
+  - "{{Price (high to low)}}"
+  - "{{Name (A to Z)}}"
+  - "{{Name (Z to A)}}"
+steps:
+  - "Verify the page title is '{{PAGE_TITLE}}'"
+  - "Verify the filter options are present"
+  - "Verify the filter options are clickable"
+  - "Verify the menu items are present"
+  - "Verify the menu items are clickable"

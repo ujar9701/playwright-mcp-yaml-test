@@ -1,0 +1,10 @@
+description: "Reusable step to add a product to the cart"
+parameters:
+  - PRODUCT_NAME = '{{Sauce Labs Backpack}}'  # Optional, if you want to generalize
+
+steps:
+  - "Navigate to the product listing page"
+  - "Search for '{{PRODUCT_NAME}}'"
+  - "Click on '{{PRODUCT_NAME}}' to open product details"
+  - "Click Add to Cart button for {{PRODUCT_NAME}}"
+  - "Verify the cart icon/badge is updated"

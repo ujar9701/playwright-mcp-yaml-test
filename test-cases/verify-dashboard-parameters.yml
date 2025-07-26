@@ -1,0 +1,8 @@
+name: "Verify Dashboard Parameters"
+description: "Verify the dashboard parameters"
+tags:
+  - smoke
+  - verify-dashboard
+steps:
+  - include: "login"
+  - include: "verify-dashboard"

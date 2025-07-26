@@ -1,0 +1,12 @@
+description: "Reusable step to verify the cart"
+parameters: []
+CART_TITLE: "{{Your Cart}}"
+CART_TABLE_HEADER: "{{QTY}} - {{Description}}"
+CONTINUE_SHOPPING: "{{Continue Shopping}}"
+CHECKOUT: "{{Checkout}}"
+steps:
+  - "Click on the cart icon"
+  - "Verify the cart title is {{CART_TITLE}}"
+  - "Verify the cart table header is {{CART_TABLE_HEADER}}"
+  - "Verify the continue shopping button is {{CONTINUE_SHOPPING}}"
+  - "Verify the checkout button is {{CHECKOUT}}"

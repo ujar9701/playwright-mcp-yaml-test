@@ -1,0 +1,17 @@
+{
+    "theme": "GitHub",
+    "selectedAuthType": "oauth-personal",
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest",
+          "--user-data-dir", "gemini-playwright",
+          "--save-trace",
+          "--output-dir", "test-artifacts"
+        ]
+      }
+    },
+    "autoAccept": true
+  }
+  

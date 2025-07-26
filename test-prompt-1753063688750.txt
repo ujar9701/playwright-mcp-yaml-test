@@ -1,0 +1,23 @@
+You are a Playwright test automation assistant. Execute the following test case step by step.
+
+CRITICAL INSTRUCTIONS:
+- Execute each step using appropriate Playwright MCP tools
+- Take screenshots ONLY on verification/validation steps (steps containing "verify", "check", "validate", "assert", "confirm")
+- Save screenshots using playwright:browser_take_screenshot with filename parameter: "C:\Users\RAJU\playwright-yaml-test\test-artifacts\user-login-test/descriptive-name.png"
+- Generate Playwright TypeScript test file after completing all steps
+- Save test file to: C:\Users\RAJU\playwright-yaml-test\tests
+
+Test: User Login Test
+Description: Checks if a user can log in with valid credentials.
+Environment: dev
+Screenshots Directory: C:\Users\RAJU\playwright-yaml-test\test-artifacts\user-login-test
+
+Steps to execute:
+1. Navigate to login page
+2. Enter username as standard_user
+3. Enter password as secret_sauce
+4. Click login button
+5. Wait for dashboard to appear
+6. Verify dashboard is displayed [TAKE SCREENSHOT]
+
+Execute each step sequentially. For verification steps marked with [TAKE SCREENSHOT], capture a screenshot with a descriptive filename. After all steps are complete, generate the Playwright test file.
