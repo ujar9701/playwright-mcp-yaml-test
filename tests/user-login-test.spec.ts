@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('User Login', async ({ page }) => {
+test('User Login Test', async ({ page }) => {
   // 1. Navigate to login page
   await page.goto('https://www.saucedemo.com');
 
@@ -21,5 +21,5 @@ test('User Login', async ({ page }) => {
 
   // 7. Verify dashboard is displayed [TAKE SCREENSHOT]
   await expect(page.locator('[data-test="title"]')).toBeVisible();
-  await page.screenshot({ path: 'C:\\Users\\rajut\\playwright-yaml-test\\test-artifacts\\user-login\\dashboard-displayed.png' });
+  await page.screenshot({ path: 'C:\\Users\\rajut\\playwright-yaml-test\\test-artifacts\\user-login-test/dashboard-displayed.png' });
 });

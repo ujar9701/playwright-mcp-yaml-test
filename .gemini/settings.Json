@@ -6,6 +6,7 @@
         "command": "npx",
         "args": [
           "@playwright/mcp@latest",
+          "--headed",
           "--user-data-dir", "gemini-playwright",
           "--save-trace",
           "--output-dir", "test-artifacts"
